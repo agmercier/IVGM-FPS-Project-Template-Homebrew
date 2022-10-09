@@ -13,16 +13,18 @@ public class FieldOfView : MonoBehaviour
     public LayerMask targetMask;
     public LayerMask obstructionMask;
 
+    public bool lightOn;
+
     public bool canSeePlayer;
 
     // Start is called before the first frame update
     private void Start()
     {
+        lightOn = true;
         playerRef = GameObject.FindGameObjectWithTag("Player");
         StartCoroutine(FOVRoutine());
     }
 
-    // Update is called once per frame
     private IEnumerator FOVRoutine()
     {
         float delay = 0.2f;
@@ -49,9 +51,10 @@ public class FieldOfView : MonoBehaviour
             {
                 float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
-                if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionMask))
+                if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionMask) && lightOn == true)
                 {
                     canSeePlayer = true;
+                    print("Detected");
                 }
                 else
                 {
