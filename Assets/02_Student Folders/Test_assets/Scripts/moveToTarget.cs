@@ -8,7 +8,7 @@ public class moveToTarget : MonoBehaviour
     public float speed;
     private int current;
    
-    void Update()
+    void FixedUpdate()
     {
         if (transform.position != target[current].position)
         {
