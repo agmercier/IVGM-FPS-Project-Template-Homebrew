@@ -30,7 +30,7 @@ public class NewBehaviourScript : MonoBehaviour
             else
             {
                 StopAllCoroutines();
-                textComponent.tex = lines[index];
+                textComponent.text = lines[index];
             }
         }
     }
