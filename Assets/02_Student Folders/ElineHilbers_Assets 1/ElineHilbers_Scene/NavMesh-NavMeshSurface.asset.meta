@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/02_Student Folders/ElineHilbers_Assets 1/ElineHilbers_Scene/NavMesh-NavMeshSurface.asset.meta
 guid: aa07f4673a660d549b7648c43111bde2
+========
+guid: 683f77f422e34164b818c00b13b4aca7
+>>>>>>>> master:Assets/02_Student Folders/Test_assets/FirstnameLastname_Scene/NavMesh-NavMeshSurface.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 23800000
