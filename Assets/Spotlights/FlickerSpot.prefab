@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7936132509249157533}
   - component: {fileID: 7936132509249157532}
   - component: {fileID: 7936132509249157535}
+  - component: {fileID: -2937324628627161683}
   m_Layer: 0
   m_Name: FlickerSpot
   m_TagString: Untagged
@@ -90,6 +91,19 @@ MonoBehaviour:
   offTime: 2
   onTime: 2
   spotLight: {fileID: 7936132509882267475}
+--- !u!114 &-2937324628627161683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871983125499474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a91fd11d5edea0e4aba5a880e4c9df16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  warden: {fileID: 2015434656898269652, guid: 9da4064bbdefdc44281ce7a64dadedfd, type: 3}
 --- !u!1 &7936132509882267474
 GameObject:
   m_ObjectHideFlags: 0
