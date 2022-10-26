@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 668097a57b5cd1649926127f70f26bb3, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "\rHey, you, you\u2019re finally awake. "
+  - "\rI let you sleep for a while, but it seems the guards just brought us our food\u2026\nIf
+    you can call it that.\r"
+  - "\rI can\u2019t remember the last time I had a decent meal. \nI\u2019d kill for
+    some chocolate.\n"
+  - "Well, no matter. You best eat up, you will need your strength.\r"
+  - "I can\u2019t stand it any longer, kid. \r"
+  - "Being worked tirelessly day after day, for those pieces of scrap metal. \r"
+  - "I am not sure what has become of the outside world after the robots took over,
+    but it must be better than in here, right?\r"
+  - "I might not be fit enough to stand up against them, but YOU are. \r\n"
+  - It seems some of the system has malfunctioned, so you might be able to get out
+    of here.
+  - "At least this way one of us will get to see the sky huh.\r"
+  - 'Good luck kid, just make sure to stay out of the lights.
+
+'
