@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: 2464449653069012952}
   - component: {fileID: 2464449653069012953}
   - component: {fileID: 2464449653069012934}
+  - component: {fileID: 5792010633063329323}
   m_Layer: 0
   m_Name: SpinSpot
   m_TagString: Untagged
@@ -184,6 +185,21 @@ MonoBehaviour:
   untilFlipLeft: 78
   untilFlipRight: 79.15
   spinSpeed: 100
+--- !u!114 &5792010633063329323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7402056324947235879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a91fd11d5edea0e4aba5a880e4c9df16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  warden: {fileID: 2015434656898269652, guid: 9da4064bbdefdc44281ce7a64dadedfd, type: 3}
+  spawnPos: {fileID: 0}
+  minDist: 0
 --- !u!1001 &2464449651472884065
 PrefabInstance:
   m_ObjectHideFlags: 0

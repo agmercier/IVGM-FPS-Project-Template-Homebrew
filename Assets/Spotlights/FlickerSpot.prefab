@@ -104,6 +104,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   warden: {fileID: 2015434656898269652, guid: 9da4064bbdefdc44281ce7a64dadedfd, type: 3}
+  spawnPos: {fileID: 0}
+  minDist: 0
 --- !u!1 &7936132509882267474
 GameObject:
   m_ObjectHideFlags: 0

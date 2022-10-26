@@ -186,6 +186,37 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
   m_PVRTiledBaking: 0
+--- !u!1 &482246946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 482246947}
+  m_Layer: 0
+  m_Name: WardenSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &482246947
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482246946}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.55, y: 1.4, z: 34.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &531229212
 GameObject:
   m_ObjectHideFlags: 0
@@ -3194,6 +3225,21 @@ PrefabInstance:
       propertyPath: warden
       value: 
       objectReference: {fileID: 1922171258}
+    - target: {fileID: -2937324628627161683, guid: 255c6847dfe6f5f41975798cab6de654,
+        type: 3}
+      propertyPath: minDist
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2937324628627161683, guid: 255c6847dfe6f5f41975798cab6de654,
+        type: 3}
+      propertyPath: spawnPos
+      value: 
+      objectReference: {fileID: 482246947}
+    - target: {fileID: -2937324628627161683, guid: 255c6847dfe6f5f41975798cab6de654,
+        type: 3}
+      propertyPath: spawnTime
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 871983125499474, guid: 255c6847dfe6f5f41975798cab6de654, type: 3}
       propertyPath: m_Name
       value: FlickerSpot
