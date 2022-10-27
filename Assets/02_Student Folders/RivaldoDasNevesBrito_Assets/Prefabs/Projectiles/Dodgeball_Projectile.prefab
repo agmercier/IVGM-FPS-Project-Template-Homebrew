@@ -46,22 +46,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de99b30e1e73fd14e98cc5371da25d12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 0.01
+  radius: 0.5
   root: {fileID: 8535636128849853705}
   tip: {fileID: 7137957016316784584}
   maxLifeTime: 5
   impactVFX: {fileID: 0}
-  impactVFXLifetime: 5
+  impactVFXLifetime: 4
   impactVFXSpawnOffset: 0.1
-  impactSFXClip: {fileID: 8300000, guid: be87267ec54c5264daffd2ffeb91d6a7, type: 3}
+  impactSFXClip: {fileID: 0}
   hittableLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  speed: 12
+  speed: 20
   gravityDownAcceleration: 0
   trajectoryCorrectionDistance: -1
   inheritWeaponVelocity: 0
-  damage: 10
+  damage: 15
   areaOfDamage: {fileID: 0}
   radiusColor: {r: 0, g: 0.2, b: 0.2, a: 0.2}
 --- !u!114 &2395265793751396324
@@ -100,7 +100,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5865313188918695347}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.496}
+  m_LocalPosition: {x: 0, y: 0, z: 0.292}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -168,6 +168,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2688162507980888082, guid: 6a20d7ca1799357488191832b2b2f75c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2688162507980888082, guid: 6a20d7ca1799357488191832b2b2f75c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2688162507980888082, guid: 6a20d7ca1799357488191832b2b2f75c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 3106065620500754562, guid: 6a20d7ca1799357488191832b2b2f75c,
         type: 3}
