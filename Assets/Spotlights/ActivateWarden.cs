@@ -9,14 +9,13 @@ public class ActivateWarden : MonoBehaviour
     public GameObject warden;
     public Transform spawnPos;
     public float minDist;
+    private float dist;
     //public float spawnTime;
 
-    private bool wardenSpawned;
     // Start is called before the first frame update
     void Start()
     {
         warden.SetActive(false);
-        wardenSpawned = false;
     }
 
     // Update is called once per frame
@@ -24,21 +23,16 @@ public class ActivateWarden : MonoBehaviour
     {
         if (GetComponent<FieldOfView>().canSeePlayer)
         {
-            float dist = Vector3.Distance(warden.transform.position, gameObject.transform.position);
+            dist = Vector3.Distance(warden.transform.position, spawnPos.transform.position);
             if (dist > minDist)
             {
             //    StartCoroutine(WaiteCoroutine());
-                if (!wardenSpawned)
+                if (!warden.activeInHierarchy)
                 {
                     warden.SetActive(true);
-                    wardenSpawned = true;
                 }
-
-                warden.transform.position = spawnPos.position;
+                warden.GetComponent<UnityEngine.AI.NavMeshAgent>().Warp (spawnPos.position);
             }
-
-
-
         }
 
     }
