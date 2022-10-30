@@ -13,20 +13,29 @@ MonoBehaviour:
   m_Name: Test
   m_EditorClassIdentifier: 
   dialogue:
-  - "\rHey, you, you\u2019re finally awake. "
-  - "\rI let you sleep for a while, but it seems the guards just brought us our food\u2026\nIf
-    you can call it that.\r"
-  - "\rI can\u2019t remember the last time I had a decent meal. \nI\u2019d kill for
-    some chocolate.\n"
-  - "Well, no matter. You best eat up, you will need your strength.\r"
-  - "I can\u2019t stand it any longer, kid. \r"
-  - "Being worked tirelessly day after day, for those pieces of scrap metal. \r"
-  - "I am not sure what has become of the outside world after the robots took over,
-    but it must be better than in here, right?\r"
-  - "I might not be fit enough to stand up against them, but YOU are. \r\n"
-  - It seems some of the system has malfunctioned, so you might be able to get out
-    of here.
-  - "At least this way one of us will get to see the sky huh.\r"
-  - 'Good luck kid, just make sure to stay out of the lights.
+  - "\rHey, you. You\u2019re finally awake. "
+  - 'You were knocked out pretty good for quite a while there...
 
 '
+  - 'I hope that you''re at least a bit recovered by now though.
+
+    You are gonna
+    need yer strength.'
+  - It seems there has been a malfunction in their system so you might be able to
+    get out of here, kid.
+  - "I am not sure what has become of the outside world after the robots took over,
+    but it must be better than in here, right?\r"
+  - "Take my advice and grab this chance while you can. \n"
+  - "I won't be able to follow, but at least this way one of us will get to see the
+    sky, Huh.\r"
+  - Well, no matter. If you want to get outta here you will need to get those legs
+    back in working order.
+  - To make your escape press the W,A,S,D keys to move and hold SHIFT to run.
+  - And if you come across any obstacles you can jump by pressing SPACEBAR or crouch
+    behind it by pressing C.
+  - Lastly, if you manage to get yer hands on a gun. Make sure to give those robots
+    hell by pressing the LEFT MOUSE BUTTON to shoot.
+  - You can also zoom in by pressing the RIGHT MOUSE BUTTON.
+  - 'Good luck kid!
+
+    Just make sure to steer clear of the light.'
