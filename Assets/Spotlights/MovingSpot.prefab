@@ -54,10 +54,10 @@ MonoBehaviour:
   playerRef: {fileID: 0}
   targetMask:
     serializedVersion: 2
-    m_Bits: 2048
+    m_Bits: 2147485696
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 4096
+    m_Bits: 1073745920
   lightOn: 0
   canSeePlayer: 0
 --- !u!114 &8526552937978692797

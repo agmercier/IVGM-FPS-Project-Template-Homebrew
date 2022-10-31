@@ -17,6 +17,8 @@ TagManager:
   - 
   - FirstPersonWeapon
   - 
+  - Target
+  - Obstruction
   - 
   - 
   - 
@@ -33,10 +35,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Obstruction
+  - Player
   m_SortingLayers:
   - name: Background
     uniqueID: 788040023
